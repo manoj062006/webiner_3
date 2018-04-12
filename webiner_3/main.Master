@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="webiner_3.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 122px;
+        }
+        .auto-style2 {
+            width: 333px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td class="auto-style1">
+                    logo
+                </td>
+                <td class="auto-style2">
+                    this is slogan
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    top navigation
+                    <a href="home.aspx">home</a>
+                    <a href="about us.aspx"  >home</a>
+                    <asp:LinkButton ID="lnkhome" Text="home" runat="server"></asp:LinkButton>
+                </td>
+                
+            </tr>
+
+            <td class="auto-style1">
+                left navigation
+
+
+            </td>
+            <td class="auto-style2">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                     dsfa
+            </asp:ContentPlaceHolder>
+        
+            </td>
+            <tr>
+            <td class="auto-style1">
+                fotter                           
+
+            </td>
+            </tr>
+        </table>
+        <div>
+           </div>
+    </form>
+</body>
+</html>

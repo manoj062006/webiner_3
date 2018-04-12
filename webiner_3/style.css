@@ -1,0 +1,24 @@
+﻿body {
+}
+div {
+    background-color: palevioletred;
+    color: aqua;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#listid {
+    background-size: cover;
+    background-color: darkgoldenrod;
+    color: silver;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.listclass {
+    background-size: cover;
+    background-color: silver;
+    color: darkgoldenrod;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
